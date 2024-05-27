@@ -218,6 +218,7 @@ watch(shouldLoadAttachment, () => {
         <CommonBlurhash
           :blurhash="attachment.blurhash || ''"
           class="status-attachment-image"
+          crossorigin="anonymous"
           :src="src"
           :srcset="srcset"
           :width="attachment.meta?.original?.width"
